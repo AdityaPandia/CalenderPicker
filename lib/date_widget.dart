@@ -47,7 +47,7 @@ class _DateWidgetState extends State<DateWidget>with AutomaticKeepAliveClientMix
         width: widget.width,
         margin: const EdgeInsets.all(3.0),
         decoration: BoxDecoration(
-          borderRadius: const BorderRadius.all(Radius.circular(25)),
+          borderRadius: const BorderRadius.all(Radius.circular(10)),
           color: widget.isMultiSelectionEnable == true
               ? isSelect == false
                   ? widget.selectionColor
